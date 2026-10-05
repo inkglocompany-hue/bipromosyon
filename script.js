@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{const intro=document.getElementById("intro");setTimeout(()=>intro.classList.add("hide"),2600);document.querySelectorAll('a[href^="https://wa.me/"]').forEach(a=>a.addEventListener("click",()=>{a.style.transform="scale(.98)";setTimeout(()=>a.style.transform="",140)}));});
